@@ -1,0 +1,6 @@
+username,password,vehicleNumber,vehicleRdNumber,phoneNumber,gpsId,amount,name,address,vehicleType
+john123,ABC123,12345,1000,9876543210,GPS001,666.47,John Doe,123 Main St,car
+user,user,101,12121,928392837,GPS002,2632.41,darshan,bangalore,car
+abcd,xyz,1214,2398283,1212121,GPS004,18355.81,someone,mombay,other
+adfasd,sdf,1212,43232,534332,GPS006,231409.87,hello,place,truck
+;lkj,asdf,12121,23235,6434,GPS008,22388.32,gerel,idontknow,car
