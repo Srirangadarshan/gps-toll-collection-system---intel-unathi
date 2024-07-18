@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>User Dashboard</h1>
+        <div id="details">
+            <div id="user-details">
+                <h2>User Details</h2>
+                <p><strong>Name:</strong> <span id="name"></span></p>
+                <p><strong>Address:</strong> <span id="address"></span></p>
+                <p><strong>Phone Number:</strong> <span id="phone-number"></span></p>
+            </div>
+            <div id="vehicle-details">
+                <h2>Vehicle Details</h2>
+                <p><strong>Vehicle Number:</strong> <span id="vehicle-number"></span></p>
+                <p><strong>Vehicle RD Number:</strong> <span id="vehicle-rd-number"></span></p>
+                <p><strong>GPS ID:</strong> <span id="gps-id"></span></p>
+                <p><strong>Vehicle Type:</strong> <span id="vehicle-type"></span></p>
+            </div>
+        </div>
+        <div id="balance">
+            <p><strong>Balance:</strong> <span id="amount" class="balance"></span></p>
+        </div>
+
+        <div id="statistical-data">
+            <p id="total-travel-price"></p>
+            <p id="total-distance"></p>
+            <p id="avg-price"></p>
+            <p id="travel-count"></p>
+            <p id="avg-total-price"></p>
+        </div>
+        
+        <div class="chart-container">
+            <canvas id="travelChart"></canvas>
+        </div>
+        
+
+        <div id="history">
+            <h2>Vehicle History</h2>
+            <div id="history-entries">
+                <!-- History entries will be appended here -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
